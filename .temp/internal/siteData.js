@@ -20,7 +20,8 @@ export const siteData = {
           "title": "分类列表",
           "slug": "分类列表"
         }
-      ]
+      ],
+      "lastUpdated": "10/21/2021, 10:41:12 PM"
     },
     {
       "title": "Home",
@@ -49,24 +50,24 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-443c9b66",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "10/21/2021, 10:41:12 PM"
     },
     {
-      "title": "导航页面",
-      "frontmatter": {
-        "navbar": false
-      },
-      "regularPath": "/guide/guide.html",
-      "relativePath": "guide/guide.md",
-      "key": "v-4c8844f0",
-      "path": "/guide/guide.html",
+      "title": "日文切换页面",
+      "frontmatter": {},
+      "regularPath": "/languageOptions/Japanese.html",
+      "relativePath": "languageOptions/Japanese.md",
+      "key": "v-09ff7960",
+      "path": "/languageOptions/Japanese.html",
       "headers": [
         {
           "level": 2,
-          "title": "导航页面",
-          "slug": "导航页面"
+          "title": "日文切换页面",
+          "slug": "日文切换页面"
         }
-      ]
+      ],
+      "lastUpdated": "10/21/2021, 10:41:12 PM"
     },
     {
       "title": "简体中文切换页面",
@@ -83,22 +84,8 @@ export const siteData = {
           "title": "简体中文切换页面",
           "slug": "简体中文切换页面"
         }
-      ]
-    },
-    {
-      "title": "日文切换页面",
-      "frontmatter": {},
-      "regularPath": "/languageOptions/Japanese.html",
-      "relativePath": "languageOptions/Japanese.md",
-      "key": "v-09ff7960",
-      "path": "/languageOptions/Japanese.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "日文切换页面",
-          "slug": "日文切换页面"
-        }
-      ]
+      ],
+      "lastUpdated": "10/21/2021, 10:41:12 PM"
     },
     {
       "title": "今日音乐推荐",
@@ -113,7 +100,26 @@ export const siteData = {
           "title": "今日音乐推荐",
           "slug": "今日音乐推荐"
         }
-      ]
+      ],
+      "lastUpdated": "10/21/2021, 10:41:12 PM"
+    },
+    {
+      "title": "导航页面",
+      "frontmatter": {
+        "navbar": false
+      },
+      "regularPath": "/guide/guide.html",
+      "relativePath": "guide/guide.md",
+      "key": "v-4c8844f0",
+      "path": "/guide/guide.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "导航页面",
+          "slug": "导航页面"
+        }
+      ],
+      "lastUpdated": "10/21/2021, 10:41:12 PM"
     }
   ],
   "themeConfig": {

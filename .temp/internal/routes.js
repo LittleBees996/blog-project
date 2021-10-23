@@ -29,11 +29,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-4c8844f0",
-    path: "/guide/guide.html",
+    name: "v-09ff7960",
+    path: "/languageOptions/Japanese.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4c8844f0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-09ff7960").then(next)
     },
   },
   {
@@ -45,19 +45,19 @@ export const routes = [
     },
   },
   {
-    name: "v-09ff7960",
-    path: "/languageOptions/Japanese.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-09ff7960").then(next)
-    },
-  },
-  {
     name: "v-707d62d5",
     path: "/music.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-707d62d5").then(next)
+    },
+  },
+  {
+    name: "v-4c8844f0",
+    path: "/guide/guide.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4c8844f0").then(next)
     },
   },
   {
